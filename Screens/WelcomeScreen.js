@@ -10,7 +10,7 @@ import React from "react";
 
 export default function WelcomeScreen({ navigation }) {
   const onPressHandler = () => {
-    navigation.navigate("Home");
+    navigation.navigate("Login");
   };
 
   return (
